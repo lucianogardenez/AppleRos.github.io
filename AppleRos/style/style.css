@@ -1,0 +1,217 @@
+    *{                  
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 100px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+   
+}
+
+.header{
+    background-color: black;
+    height: 10vh;
+    position: fixed;     
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+
+
+.nav{
+    margin-right: 15rem;
+   
+}
+
+.nav-menu-link{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 5px;
+
+}
+
+.nav-menu-link:hover{
+    background-color: gray;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.logo{
+    margin-left: 15rem;
+}
+
+.logoappleros{
+    width: 135px;  
+}
+
+.nav-menu{
+    display: flex;   
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 16px;
+    font-weight:lighter;
+    text-transform: uppercase;
+    max-width: max-content;
+}
+
+
+.col{
+    border: solid rgb(255, 255, 255) 1px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-home{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: rgba(64, 64, 64, 0.035);
+    padding: 5em;
+}
+
+h2{
+    padding: 1em;
+    font-size: 1.3rem;
+}
+ 
+
+h5{
+    color: rgb(19, 19, 19);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.shop-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card {
+    box-shadow: 0 4px 9 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card > img {
+    width: 250px;
+    height: 250px;
+}
+
+.price {
+    color: rgb(48, 47, 47);        
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center; 
+    cursor: pointer;
+    width: 50%;
+    
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.carrito {
+    max-width: 10px;
+}
+
+.modal-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0909;
+    color: #fff;
+    width: 100%;
+
+}
+
+.modal-header-title {
+    justify-self: start;
+}
+
+.modal-header-button {
+    cursor: pointer;
+}
+
+.modal-container > .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.modal-container > div > img {
+    height: 120px;
+    width: 120px;
+}
+
+.total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.ver-carrito {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    color:rgb(48, 47, 47);
+    font-size: 25px;
+    cursor: pointer;
+    
+}
